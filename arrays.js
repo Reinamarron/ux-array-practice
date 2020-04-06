@@ -1,3 +1,5 @@
+Arrays
+
 /*
     Arrays Practice
 
@@ -18,13 +20,26 @@
 */
 
 function fridgeContains(fridge, item) {
-    // Your code here.  Check if the item is in the fridge, return true or false.
+    Your code here.  Check if the item is in the fridge, return true or false.
+
+   let myArray = [milk, cheese, butter];
+
+   console.log(myArray)
+   let thisvar = 
     return false;
 }
+let fridge = ["milk", "cheese", "butter"];
+let myArray = fridge.filter(myArray);
 
+function fridgeContain(milk, cheese, myArray) {
+  return value > 18;
+} 
 /* 
    -------TESTS---------------------------------------------------------------
    Run these commands to make sure you did it right. They should all be true.
+
+
+
 */
 console.log("-----Tests for Exercise One-----");
 let fridge = ["milk", "cheese", "eggs", "broccoli", "spinach", "chicken", "leftovers"];
@@ -46,7 +61,15 @@ console.log(!fridgeContains(fridge, "eggplant"));
 */
 
 function putItemIntoFridge(fridge, item) {
-    // Your code here.
+    let arr2 = [1,2, "this is a referenence"]
+    console.log()
+
+    let arr2 = [1,2,3];
+let arr2 = Item.filter(putItemIntoFridge);
+
+function getItemFromFridge(milk, cheese, butter) {
+  return value <1;
+} 
 }
 
 /* 
@@ -77,7 +100,11 @@ console.log(fridge2.length == previousLength + 1 && fridge2.includes("kale"));
 */
 
 function getItemFromFridge(fridge, item) {
-    // Your code here.
+    let fridge = ["milk, cheese, eggs, brocolli, spinach, chicken, leftovers"]
+    let fridge = item(getItemFromFridge);
+
+function myFunction(value, index, array) {
+  return value > null;
 }
 
 /* 
@@ -172,6 +199,14 @@ function getItemFromNewFridge(fridge, item) {
     // Your code here.
 }
 
+function getIndexOfItem(fridge, item) {
+    for (let index in fridge) {
+        if (fridge[index].length > 0 && fridge[index][0] == item) {
+            return index;
+        }
+    }
+    return -1;
+
 /*
     putItemInNewFridge
 
@@ -182,7 +217,16 @@ function putItemInNewFridge(fridge, item) {
     // Your code here.
 }
 
+let fridge = ["egg", "egg","egg","egg", "juice","butter", 
+            "milk"];
+            fridge.splice(0, 1);     
+} 
 
+fridge.index(egg)
+    if(fridge.includes(item)){
+        return item.splice
+        else return null
+    }
 /*
    -------END OF YOUR CODE-----------------------------------------------------------
 */
@@ -228,3 +272,5 @@ console.log("* Get a missing item");
 let lengthBeforeGettingMissingItem = newFridge.length;
 let missingItem = getItemFromNewFridge(newFridge, "leftovers");
 console.log(missingItem == null && newFridge.length == lengthBeforeGettingMissingItem && getIndexOfItem(newFridge, "leftovers") == -1);
+
+
